@@ -1,0 +1,12 @@
+name: mlflow-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - mlflow
+      - dagshub
+      - pandas
+      - scikit-learn
+      - matplotlib
