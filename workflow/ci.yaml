@@ -25,7 +25,7 @@ jobs:
         pip install mlflow dagshub pandas scikit-learn matplotlib
 
     - name: Run MLflow Project Check
+      working-directory: ./MLProject
       run: |
         echo "Menjalankan validasi pipeline MLProject..."
-        cd MLProject
         mlflow run . --no-conda
