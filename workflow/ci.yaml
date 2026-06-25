@@ -28,4 +28,4 @@ jobs:
       working-directory: ./MLProject
       run: |
         echo "Menjalankan validasi pipeline MLProject..."
-        mlflow run . --no-conda
+        mlflow run . --env-manager local
